@@ -61,9 +61,14 @@ nav a:hover
 }
 
 #presentation {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	padding:10px;
+	background-color:#80ded9;
+	border-radius: 8px;
+	text-align: justify;
+}
+
+#presentation h3 {
+	text-decoration:underline;
 }
 
 #portrait img {
@@ -74,6 +79,11 @@ nav a:hover
 
 #portrait{
 	text-align: center;
+}
+
+#informations{
+	display:flex;
+	justify-content: space-between;
 }
 
 footer
